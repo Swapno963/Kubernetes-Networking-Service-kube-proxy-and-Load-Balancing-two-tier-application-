@@ -6,3 +6,6 @@ docker push swapno/backend-api:v1
 
 # Create deployment 
 kubectl apply -f backend-deployment.yaml
+
+# Create service
+kubectl apply -f backend-service.yaml
