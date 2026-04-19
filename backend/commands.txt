@@ -1,0 +1,8 @@
+Build backend project and push to dockerhub
+# Build the image
+docker build -t swapno/backend-api:v1 .
+docker push swapno/backend-api:v1
+
+
+# Create deployment 
+kubectl apply -f backend-deployment.yaml
